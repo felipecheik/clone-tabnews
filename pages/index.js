@@ -1,7 +1,7 @@
-import dicaprioGif from '../GIF/09_dicaprio.gif';
+import dicaprioGif from "../GIF/09_dicaprio.gif";
 
 function Home() {
-  const src = typeof dicaprioGif === 'string' ? dicaprioGif : dicaprioGif.src;
+  const src = typeof dicaprioGif === "string" ? dicaprioGif : dicaprioGif.src;
 
   return (
     <>
